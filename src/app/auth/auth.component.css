@@ -1,0 +1,28 @@
+.flex-container{
+  height: 100%;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.auth{
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+  justify-content: center;
+  gap: 20px;
+  border: solid;
+  border-spacing: 10px;
+  padding: 40px 20px 40px 20px;
+  width: 300px;
+}
+input{
+  height: 30px;
+  width: 300px;
+}
+button{
+  height: 50px;
+  width: 100px;
+  align-self: center;
+}
