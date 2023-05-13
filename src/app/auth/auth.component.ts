@@ -6,5 +6,10 @@ import { Component } from '@angular/core';
   styleUrls: ['./auth.component.css']
 })
 export class AuthComponent {
-
+  login: string='';
+  password: string='';
+  onClick(){
+    alert(this.password)
+  }
 }
+
