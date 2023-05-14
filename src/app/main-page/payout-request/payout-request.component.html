@@ -1,0 +1,9 @@
+<div class="gallery">
+  <ul class="payoutRequest" *ngFor="let payoutRequest of payoutRequestList">
+    <li>
+      {{payoutRequest.partner.name}}
+      {{payoutRequest.payoutAmount}} рублей
+      {{payoutRequest.createdAt|date:'short'}}
+    </li>
+  </ul>
+</div>

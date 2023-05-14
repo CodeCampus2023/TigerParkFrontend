@@ -12,4 +12,3 @@ export class AuthComponent {
     alert(this.password)
   }
 }
-

@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+.gallery{
+  margin-left: 240px;
+  font-family: 'Montserrat', sans-serif;
+  display: flex;
+  gap: 16px;
+  flex-direction: column;
+  font-size: 28px;
+}
+ul{
+  gap: 20px;
+  margin-top: 15px;
+}
+li{
+  padding: 8px 4px 8px 4px;
+  background-color: rgb(255,238,51);
+  color: black;
+
+}

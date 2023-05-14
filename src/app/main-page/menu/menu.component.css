@@ -1,8 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
-
-
 .sidenav {
   font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
   height: 100%;
   width: 200px;
   position: fixed;
@@ -12,7 +11,6 @@
   background-color: rgb(255,238,51);
   overflow-x: hidden;
   padding-top: 20px;
-
 }
 
 .sidenav a {
@@ -31,7 +29,7 @@
 .main {
   margin-left: 160px; /* Same as the width of the sidenav */
   font-size: 28px; /* Increased text to enable scrolling */
-  padding: 0px 10px;
+  padding: 0 10px;
 }
 
 @media screen and (max-height: 450px) {
